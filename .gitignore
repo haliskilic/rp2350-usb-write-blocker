@@ -1,0 +1,18 @@
+# Derleme ciktilari
+/build/
+*.uf2
+*.elf
+*.bin
+*.hex
+*.dis
+*.map
+
+# Pico SDK (buyuk; setup.sh ile klonlanir, depo icine konmaz)
+/external/pico-sdk/
+
+# Editor
+*.swp
+*.gch
+.vscode/
+.cache/
+compile_commands.json

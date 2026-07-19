@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="400" viewBox="0 0 920 400">
+  <defs>
+    <linearGradient id="metal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d4dae1"/><stop offset="0.5" stop-color="#aab2bb"/><stop offset="1" stop-color="#8f979f"/>
+    </linearGradient>
+    <linearGradient id="case" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fafaf7"/><stop offset="1" stop-color="#e8e8e2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- kart / card background -->
+  <rect x="4" y="4" width="912" height="392" rx="22" fill="#1b1e24" stroke="#0c0d0e" stroke-width="3"/>
+
+  <!-- USB-A erkek konnektor -->
+  <rect x="80" y="150" width="124" height="100" rx="6" fill="url(#metal)" stroke="#6d747c" stroke-width="2"/>
+  <rect x="92" y="166" width="112" height="68" fill="#7d848c"/>
+  <rect x="104" y="176" width="26" height="10" rx="2" fill="#5a6068"/>
+  <rect x="104" y="214" width="26" height="10" rx="2" fill="#5a6068"/>
+
+  <!-- beyaz govde -->
+  <rect x="200" y="140" width="462" height="120" rx="16" fill="url(#case)" stroke="#c6c6bf" stroke-width="2"/>
+
+  <!-- BOOT butonu -->
+  <circle cx="252" cy="177" r="13" fill="#dcdcd6" stroke="#a3a39c" stroke-width="2.5"/>
+  <circle cx="252" cy="177" r="6" fill="#c2c2bb"/>
+  <!-- govde yazisi -->
+  <text x="252" y="225" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700"
+        fill="#9a9a92" text-anchor="middle">RP2350</text>
+  <text x="252" y="241" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700"
+        fill="#9a9a92" text-anchor="middle">GEEK</text>
+
+  <!-- 1.14" LCD -->
+  <rect x="300" y="153" width="244" height="94" rx="7" fill="#14161a"/>
+  <rect x="314" y="165" width="216" height="70" rx="3" fill="#07e007"/>
+  <text x="422" y="208" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="900"
+        fill="#ffffff" text-anchor="middle">OKU (R)</text>
+
+  <!-- microSD yuvasi (alt kenar) -->
+  <rect x="560" y="252" width="56" height="10" rx="3" fill="#14161a"/>
+  <rect x="572" y="246" width="32" height="8" rx="2" fill="#3b3f45"/>
+
+  <!-- SWD/UART (sag uc) -->
+  <rect x="648" y="168" width="16" height="64" rx="4" fill="#2a2d33"/>
+  <circle cx="656" cy="182" r="4" fill="#d8b64a"/>
+  <circle cx="656" cy="200" r="4" fill="#d8b64a"/>
+  <circle cx="656" cy="218" r="4" fill="#d8b64a"/>
+
+  <!-- cagri cizgileri + etiketler -->
+  <g stroke="#5c6570" stroke-width="2" fill="none">
+    <line x1="142" y1="148" x2="142" y2="112"/>
+    <line x1="252" y1="162" x2="252" y2="100"/>
+    <line x1="422" y1="151" x2="422" y2="100"/>
+    <line x1="588" y1="264" x2="588" y2="306"/>
+    <line x1="666" y1="200" x2="706" y2="200"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#aeb6bf">
+    <text x="142" y="100" text-anchor="middle">USB-A</text>
+    <text x="252" y="88" text-anchor="middle">BOOT</text>
+    <text x="422" y="88" text-anchor="middle">1.14&#8243; LCD (ST7789)</text>
+    <text x="588" y="332" text-anchor="middle">microSD</text>
+    <text x="714" y="207" text-anchor="start">SWD / UART</text>
+  </g>
+</svg>

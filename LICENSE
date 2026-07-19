@@ -1,0 +1,39 @@
+RP2350 USB Write Blocker — Kaynağı Görünür, İzne Tabi Lisans
+(Source-Available, Permission-Required License)
+
+Copyright (c) 2026 Halis Kılıç. Tüm hakları saklıdır. / All rights reserved.
+
+TÜRKÇE
+------
+1. Bu depodaki proje kodu (src/, scripts/, docs/ ve kök dosyalar) yalnızca
+   inceleme ve değerlendirme amacıyla görüntülenebilir.
+2. Kopyalama, değiştirme, derleme, dağıtma, alt lisanslama ve ticari ya da
+   ticari olmayan HERHANGİ bir kullanım, telif sahibinin ÖNCEDEN YAZILI
+   İZNİNE tabidir.
+3. İzin ve lisans anlaşması için başvuru: Halis Kılıç <mail@haliskilic.com.tr>
+4. Yazılım "OLDUĞU GİBİ" sunulur; hiçbir açık veya örtük garanti verilmez.
+   Telif sahibi, kullanımdan doğabilecek hiçbir zarardan sorumlu tutulamaz.
+
+ENGLISH (summary)
+-----------------
+The project code in this repository (src/, scripts/, docs/ and root files)
+is source-available for review purposes only. ANY use — copying, modifying,
+building, distributing, sublicensing, commercial or non-commercial —
+requires PRIOR WRITTEN PERMISSION from the copyright holder.
+Contact for licensing: Halis Kılıç <mail@haliskilic.com.tr>
+Provided "AS IS", without warranty of any kind.
+
+---------------------------------------------------------------------------
+ÜÇÜNCÜ PARTİ BİLEŞENLER / THIRD-PARTY COMPONENTS
+
+lib/ altındaki bileşenler bu lisansa TABİ DEĞİLDİR; kendi lisanslarını
+korurlar ve o lisansların koşulları geçerlidir:
+
+- no-OS-FatFS-SD-SDIO-SPI-RPi-Pico (Carl John Kugler III) — Apache-2.0;
+  içindeki FatFs (ChaN) FatFs lisansı (BSD-benzeri).
+  Yerel yamalar dosya içinde "DUZELTME (yerel yama)" yorumlarıyla işaretlidir.
+- Waveshare 1.14" LCD sürücü/GUI kütüphanesi — MIT.
+  Yerel yamalar dosya içi yorumlarla işaretlidir.
+- Fonts (STMicroelectronics) — BSD-3-Clause.
+- Raspberry Pi Pico SDK ve TinyUSB bu depoya dahil değildir; derleme
+  sırasında indirilir (BSD-3-Clause / MIT).
