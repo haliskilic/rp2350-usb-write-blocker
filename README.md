@@ -10,7 +10,9 @@
 <p align="center">
   <a href="https://github.com/haliskilic/rp2350-usb-write-blocker/releases"><img src="https://img.shields.io/badge/release-v1.0.0-blue" alt="Release"></a>
   <img src="https://img.shields.io/badge/platform-RP2350%20(Cortex--M33%20%C3%972)-8A2BE2" alt="Platform">
-  <img src="https://img.shields.io/badge/lisans-izne%20tabi-red" alt="Lisans">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/lisans-AGPL--3.0-blue" alt="Lisans: AGPL-3.0"></a>
+  <a href="COMMERCIAL_LICENSE.md"><img src="https://img.shields.io/badge/ticari-lisans%20mevcut-green" alt="Ticari lisans"></a>
+  <a href="https://github.com/sponsors/haliskilic"><img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-db61a2?logo=githubsponsors&logoColor=white" alt="Sponsor"></a>
   <img src="https://img.shields.io/badge/h%C4%B1z-1.0%20MB%2Fs%20oku%20%2F%20930%20kB%2Fs%20yaz-orange" alt="Hız">
 </p>
 
@@ -309,11 +311,17 @@ rp2350-usb-write-blocker/
 
 ## Lisans
 
-Proje kodu (`src/`, `scripts/`, `docs/`) **kaynağı görünür, izne tabi**
-lisanslıdır: her türlü kullanım (kopyalama, değiştirme, dağıtma, ticari/
-ticari olmayan) için telif sahibinden **önceden yazılı izin** gerekir.
-Lisans anlaşması için: **Halis Kılıç — mail@haliskilic.com.tr**
+RP2350 USB Write Blocker **çift lisanslıdır**:
 
-`lib/` altındaki üçüncü parti bileşenler bu lisansa tabi değildir; kendi
-lisanslarını korur (carlk3: Apache-2.0, FatFs: BSD-benzeri, Waveshare: MIT,
-STM fontları: BSD-3-Clause) — ayrıntılar [`LICENSE`](LICENSE) dosyasında.
+- **Açık kaynak — [GNU AGPL-3.0](LICENSE):** kullanmak, incelemek, değiştirmek ve paylaşmak serbesttir. Dağıtırsan ya da değiştirilmiş bir sürümü ağ servisi olarak çalıştırırsan, tüm kaynak kodunu AGPL-3.0 ile sunman gerekir.
+- **Ticari lisans:** AGPL-3.0 yükümlülükleri olmadan kapalı kaynak ürün, cihaz ya da SaaS için — bkz. [COMMERCIAL_LICENSE.md](COMMERCIAL_LICENSE.md) veya **mail@haliskilic.com.tr**.
+
+`lib/` altındaki üçüncü parti bileşenler bu lisansa tabi değildir; kendi lisanslarını korur (carlk3: Apache-2.0, FatFs: BSD-benzeri, Waveshare: MIT, STM fontları: BSD-3-Clause) — ayrıntılar [`NOTICE`](NOTICE) dosyasında.
+
+Katkılar memnuniyetle karşılanır! İlk pull request'inde tek seferlik bir [Katkıcı Lisans Sözleşmesi (CLA)](https://gist.github.com/haliskilic/7a7fdcd355f54d1db6943959d7b76823) imzalaman istenir; katkının telif hakkı sende kalır.
+
+Telif © 2026 Halis KILIÇ.
+
+## Projeyi destekle
+
+RP2350 USB Write Blocker işine yarıyorsa **[GitHub Sponsors üzerinden destek olmayı ❤️](https://github.com/sponsors/haliskilic)** düşünebilirsin — sponsorluklar test donanımını ve projenin bakımına ayrılan zamanı karşılıyor.

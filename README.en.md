@@ -10,7 +10,9 @@
 <p align="center">
   <a href="https://github.com/haliskilic/rp2350-usb-write-blocker/releases"><img src="https://img.shields.io/badge/release-v1.0.0-blue" alt="Release"></a>
   <img src="https://img.shields.io/badge/platform-RP2350%20(Cortex--M33%20%C3%972)-8A2BE2" alt="Platform">
-  <img src="https://img.shields.io/badge/license-permission--required-red" alt="License">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-AGPL--3.0-blue" alt="License: AGPL-3.0"></a>
+  <a href="COMMERCIAL_LICENSE.md"><img src="https://img.shields.io/badge/commercial-license%20available-green" alt="Commercial license"></a>
+  <a href="https://github.com/sponsors/haliskilic"><img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-db61a2?logo=githubsponsors&logoColor=white" alt="Sponsor"></a>
   <img src="https://img.shields.io/badge/speed-1.0%20MB%2Fs%20read%20%2F%20930%20kB%2Fs%20write-orange" alt="Speed">
 </p>
 
@@ -317,11 +319,17 @@ in-file with a `DUZELTME (yerel yama)` — "FIX (local patch)" — comment):
 
 ## License
 
-The project code (`src/`, `scripts/`, `docs/`) is **source-available,
-permission-required**: any use (copying, modification, distribution,
-commercial or not) requires **prior written permission** from the copyright
-holder. For licensing: **Halis Kılıç — mail@haliskilic.com.tr**
+RP2350 USB Write Blocker is **dual-licensed**:
 
-Third-party components under `lib/` are not subject to this license; they
-keep their own (carlk3: Apache-2.0, FatFs: BSD-like, Waveshare: MIT, STM
-fonts: BSD-3-Clause) — details in [`LICENSE`](LICENSE).
+- **Open source — [GNU AGPL-3.0](LICENSE):** free to use, study, modify and share. If you distribute it, or run a modified version as a network service, you must make your complete source code available under the AGPL-3.0.
+- **Commercial license:** for closed-source products, devices or SaaS without the AGPL-3.0 obligations — see [COMMERCIAL_LICENSE.md](COMMERCIAL_LICENSE.md) or email **mail@haliskilic.com.tr**.
+
+Third-party components under `lib/` are not covered by this license; they keep their own (carlk3: Apache-2.0, FatFs: BSD-like, Waveshare: MIT, STM fonts: BSD-3-Clause) — details in [`NOTICE`](NOTICE).
+
+Contributions are welcome! On your first pull request you'll be asked to sign a one-time [Contributor License Agreement](https://gist.github.com/haliskilic/7a7fdcd355f54d1db6943959d7b76823); you keep the copyright to your work.
+
+Copyright © 2026 Halis KILIÇ.
+
+## Support the project
+
+If RP2350 USB Write Blocker is useful to you, please consider **[sponsoring my work on GitHub Sponsors ❤️](https://github.com/sponsors/haliskilic)** — sponsorships pay for test hardware and the time to keep the project maintained.
